@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <>
       <div className="h-[max] bg-black">
-        <div className="grid grid-cols-1 md:grid-cols-2 p-5 flex gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 p-5 gap-10">
           <div className="border-2 border-gray-400 h-[100%] w-[100%] mx-auto rounded-3xl">
             <h1 className="font-bold text-2xl text-left mt-10 md:ml-10 ml-10 shadow-lg border-l-2 pl-5 hover:underline w-[10%] duration-300 cursor-pointer">VISUAL</h1>
             <p className="md:ml-10 mt-10 lg:text-8xl md:text-5xl text-5xl p-5 md:p-0 max-w-[90%] w-[90%] whitespace-normal h-[140px] md:h-[90px] lg:h-[250px]">Transforming Imagination <br />Into Reality</p>
@@ -19,7 +19,7 @@ const Hero = () => {
                 <FiArrowDown className="text-white text-3xl mr-2" />
                 Discover
               </button>
-              ot <button className="w-[60%] border-2 border-gray-500 mt-20 bg-black rounded-3xl font-bold flex items-center justify-center hover:scale-105 duration-300 hover:bg-gray-500 max-w-[30%]">
+              <button className="w-[60%] border-2 border-gray-500 mt-20 bg-black rounded-3xl font-bold flex items-center justify-center hover:scale-105 duration-300 hover:bg-gray-500 max-w-[30%]">
               <FiCircle className="text-white text-3xl mr-2 p-1" />
                 Whoami
               </button>
@@ -32,11 +32,11 @@ const Hero = () => {
               <img 
                 src={Vr2}
                 alt="" 
-                className="md:w-[400px] border-2 md:h-[330px] w-[350px] mx-auto h-[200px] border-gray-500 rounded-3xl shadow-lg object-cover md:max-w-[50%]"  
+                className="md:w-[400px] lg:w-[800px] border-2 md:h-[330px] w-[350px] mx-auto h-[200px] border-gray-500 rounded-3xl shadow-lg object-cover md:max-w-[50%] lg:max-w-[60%]"  
               />
               <div className="flex flex-col gap-2 md:mt-20">
-                <h1 className="mx-auto font-sm text-2xl border-[1px] h-[50px] rounded-full border-gray-500 py-2 px-2">Visualize your goal</h1>
-                <p className="font-bold md:text-5xl text-3xl mx-auto">ACHIEVE IT.</p>
+                <h1 className="mx-auto font-sm text-2xl border-[1px] h-[50px] rounded-full border-gray-500 py-2 px-2">Visualize</h1>
+                <p className="font-bold md:text-5xl text-3xl mx-auto items-center text-center">ACHIEVE IT.</p>
               </div>
             </div>
           </div>
