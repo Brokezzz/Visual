@@ -6,3 +6,23 @@ html {
     scroll-behavior: smooth;
     color: white;
 }
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4b4b4b;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6b6b6b;
+}

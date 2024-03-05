@@ -36,7 +36,7 @@ const Hero = () => {
               />
               <div className="flex flex-col gap-2 md:mt-20">
                 <h1 className="mx-auto font-sm text-2xl border-[1px] h-[50px] rounded-full border-gray-500 py-2 px-2">Visualize</h1>
-                <p className="font-bold md:text-5xl text-3xl mx-auto items-center text-center">ACHIEVE IT.</p>
+                <p className="font-bold md:text-5xl text-3xl mx-auto items-center text-center">ACHIEVE IT</p>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Hero = () => {
             <img 
               src={Vr} 
               alt="Vr Image"
-              className="h-screen w-[100%] mx-auto rounded-3xl shadow-lg object-cover "  
+              className="md:h-screen h-[500px] w-[100%] mx-auto rounded-3xl shadow-lg object-cover "  
             />  
           </div>
         </div>
