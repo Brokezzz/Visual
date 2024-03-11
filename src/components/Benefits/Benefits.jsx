@@ -5,7 +5,7 @@ import Benefit2 from '../../assets/benefit2.png';
 const Benefits = () => {
     return (
         <>
-            <div className="h-[max] bg-black flex justify-center items-center">
+            <div className="h-screen bg-black flex justify-center items-center">
                 <div className="p-5 w-[95%] rounded-3xl justify-center items-center text-max-h-[95%]">
                     <div className="flex flex-col pt-10">
                         <h1 className="text-center font-bold text-3xl">BENEFITS</h1>
